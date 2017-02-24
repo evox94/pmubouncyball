@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="General">
+        <CheckBoxPreference
+            android:key="key_game_sounds"
+            android:title="Game Sounds"
+            android:summary="Enable game sounds."
+            android:defaultValue="true"/>
+        <EditTextPreference
+            android:key="ds130626.pmu.rti.etf.rs.accelgame.maxFPS"
+            android:title="Max FPS"
+            android:summary="How often will the game render. Lower values may improve performance."
+            android:defaultValue="60"
+            android:inputType="number"/>
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:title="Physics">
+        <EditTextPreference
+            android:key="ds130626.pmu.rti.etf.rs.accelgame.frictionCoefficient"
+            android:title="Friction Coefficient"
+            android:summary="How much is the ball resisting the movement."
+            android:defaultValue="0.2"
+            android:inputType="numberDecimal"/>
+        <EditTextPreference
+            android:key="ds130626.pmu.rti.etf.rs.accelgame.bounceFactor"
+            android:title="Bounce Factor"
+            android:summary="How much speed is retained after the impact."
+            android:defaultValue="0.7"
+            android:inputType="numberDecimal"/>
+        <EditTextPreference
+            android:key="ds130626.pmu.rti.etf.rs.accelgame.speedScale"
+            android:title="Speed Scale"
+            android:summary="Scales the distance ball travels."
+            android:defaultValue="0.5"
+            android:inputType="numberDecimal"/>
+        <Preference
+            android:key="ds130626.pmu.rti.etf.rs.accelgame.calibrate"
+            android:title="Accelerometer Calibration"
+            android:summary="Click to recalibrate accelerometer."/>
+        <CheckBoxPreference
+            android:key="key_filter_input"
+            android:title="Filter Acceleration"
+            android:summary="Apply low-pass filter on acceleration input."
+            android:defaultValue="false"/>
+    </PreferenceCategory>
+</PreferenceScreen>

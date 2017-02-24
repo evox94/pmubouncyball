@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="New Level"
+        android:id="@+id/itemNewLevel"/>
+    <item android:title="Settings"
+        android:id="@+id/itemSettings"/>
+</menu>

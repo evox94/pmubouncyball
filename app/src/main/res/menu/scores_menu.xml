@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="Clear"
+        android:id="@+id/itemClearThisLevel"/>
+    <item android:title="Clear All"
+        android:id="@+id/itemClearAll"/>
+</menu>
